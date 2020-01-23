@@ -1,0 +1,14 @@
+logging:
+  level: INFO
+  loggers:
+    com.rs.phonebook: DEBUG
+server:
+  applicationConnectors:
+    - type: http
+      port: 8090
+  adminConnectors:
+    - type: http
+      port: 8091
+
+message: This is message defined into config.yml file
+messageRepeatitions: 8
